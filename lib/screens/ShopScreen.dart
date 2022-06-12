@@ -20,32 +20,31 @@ class ShopScreen extends StatelessWidget {
           mainAxisSpacing: 10,
           crossAxisCount: 2,
           children: <Widget>[
-            Container(
-              padding: const EdgeInsets.all(8),
-              color: Colors.teal[100],
-              child: const Text("He'd have you all unravel at the"),
-            ),
-            Container(
-              padding: const EdgeInsets.all(8),
-              color: Colors.teal[200],
-              child: const Text('Heed not the rabble'),
-            ),
-            Container(
-              padding: const EdgeInsets.all(8),
-              color: Colors.teal[300],
-              child: const Text('Sound of screams but the'),
-            ),
-            Container(
-              padding: const EdgeInsets.all(8),
-              color: Colors.teal[400],
-              child: const Text('Who scream'),
-            ),
+            Image.asset('assets/shop.png'),
+            Image.asset('assets/shop.png'),
+            Image.asset('assets/shop.png'),
+            Image.asset('assets/shop.png'),
           ],
         ),
         SizedBox(
           height: 8.0,
         ),
         Text('Поездки', style: GoogleFonts.raleway(fontWeight: FontWeight.w700, fontSize: 16.0),),
+        SizedBox(
+          height: 8.0,
+        ),
+        GridView.count(
+          primary: false,
+          physics: const NeverScrollableScrollPhysics(),
+          shrinkWrap: true,
+          crossAxisSpacing: 10,
+          mainAxisSpacing: 10,
+          crossAxisCount: 2,
+          children: <Widget>[
+            Image.asset('assets/shop.png'),
+            Image.asset('assets/shop.png'),
+          ],
+        ),
       ],
     );
   }

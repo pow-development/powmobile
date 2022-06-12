@@ -28,6 +28,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   google_fonts: ^3.0.1
+  stacked_card_carousel: 0.0.3-nullsafety.1
   flutter:
     sdk: flutter
 
