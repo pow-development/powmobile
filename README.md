@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://pow.thevladoss.site"><img src="img/logo.png"></img></a>
+  <a href="https://pow.thevladoss.site"><img src="https://github.com/pow-development/pow.thevladoss.site/blob/main/img/logo.png"></img></a>
   <br>
  <br>
   <a href="https://pow.thevladoss.site">powВолонтерим</a>
