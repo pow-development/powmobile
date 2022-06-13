@@ -51,6 +51,7 @@
 Продукт разработан командой pow в рамках хакатона Moscow City Hack 2022
 
 Ссылка на репозиторий с сайтом: https://github.com/pow-development/pow.thevladoss.site
+
 Ссылка скачивание мобильного приложения: https://disk.yandex.ru/d/ZKtfYvFLtNGG-A
 
 pow() - это мы:
